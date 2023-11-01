@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/jaguar', rabbitRouter);
+app.use('/rabbit', rabbitRouter);
 app.use('/board', boardRouter);
 app.use('/choose', chooseRouter);
 
