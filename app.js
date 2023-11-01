@@ -29,8 +29,6 @@ app.use('/jaguar', rabbitRouter);
 app.use('/board', boardRouter);
 app.use('/choose', chooseRouter);
 
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
