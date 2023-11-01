@@ -14,9 +14,9 @@ block content
     h5= 'buy'
 
     div(class="container-fluid")
-      each jaguar,index in results
+      each rabbit,index in results
         div(class="row", onclick=`buy(${index})`)
-          div(class="col-sm-2") <br>jaguar #{index}: #{jaguar.jaguar_color} breed:#{jaguar.jaguar_breed} price:#{jaguar.jaguar_price}
+          div(class="col-sm-2") <br>rabbit #{index}: #{rabbit.rabbit_color} breed:#{rabbit.rabbit_breed} price:#{rabbit.rabbit_price}
 
     script.
         function buy(itemNo)
